@@ -1,24 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+
+import Intro from "./components/Intro/Intro";
+import Contact from "./components/contact/Contact";
+import Footer from "./components/contact/Footer";
+import Feature from "./components/feature/Feature";
+import FeatureShape from "./components/feature/FeatureShape";
+import Navbar from "./components/navbar/Navbar";
+import Price from "./components/price/Price";
+import PriceShape from "./components/price/PriceShape";
+import Services from "./components/services/Services";
+import ServicesShape from "./components/services/ServicesShape";
+import Shape from "./components/shape/Shape";
+import "./style.css"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <div className="AppContainer">
+      <Navbar/>
+      <Intro/>
+      <Shape/>
     </div>
+    <div className="AppContainer">
+      <Feature/>
+      <FeatureShape/>
+    </div>
+    <div className="AppContainer">
+      <Services/>
+      <ServicesShape/>
+    </div>
+    <div className="AppContainer">
+      <Price/>
+      <PriceShape/>
+    </div>
+    <div className="AppContainer">
+      <Contact/>
+      <Footer/>
+    </div>
+    </>
+    
   );
 }
 
