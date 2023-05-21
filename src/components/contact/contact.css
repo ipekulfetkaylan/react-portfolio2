@@ -93,3 +93,32 @@
     cursor: pointer;
     color: #fff;
 }
+@media (max-width:580px){
+  .contact-container{
+    height: 100%;
+  }
+  .c-wrapper{
+    display: block;
+    padding: 0;
+    padding-left: 20px;
+  }
+  .form-container{
+    width: 100%;
+    padding: 20px;
+  }
+  .form{
+    display: unset;
+  }
+  .form-left{
+    margin-right: 0;
+  }
+  .address-container{
+    display: inline-block;
+    padding-left: 20px;
+    width: 100%;
+  }
+  .f-wrapper{
+    padding-bottom: 30px;
+  }
+  
+}

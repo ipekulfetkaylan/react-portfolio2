@@ -2,3 +2,9 @@
     height: 100vh;
     position: relative;
 }
+@media (max-width:580px) {
+    .AppContainer{
+        height: 100%;
+    }
+    
+}

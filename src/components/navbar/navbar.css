@@ -19,6 +19,7 @@
     cursor: pointer;
     transition: 1s ease;
     border: 1px solid #fff;
+    white-space: nowrap;
 }
 .btn:hover{
     scale: 1.1;
@@ -31,6 +32,14 @@
 }
 .menu{
     display: flex;
+}
+@media (max-width:580px) {
+    .menu{
+        display: none;
+    }
+    .logo{
+        font-size: 20px;
+    }
 }
 .menuItem{
     margin-right: 30px;

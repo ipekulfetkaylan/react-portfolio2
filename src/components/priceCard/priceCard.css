@@ -38,3 +38,8 @@
 .list-item{
     margin: 30px 0;
 }
+@media (max-width:580px){
+    .pc-container{
+      margin: 30px auto;
+    }
+}

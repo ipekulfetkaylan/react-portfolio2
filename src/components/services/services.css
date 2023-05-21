@@ -5,6 +5,7 @@
 }
 .s-left{
     width: 50%;
+    height: 100%;
     display:flex ;
     position: relative;
 }
@@ -20,8 +21,6 @@
 .s-wrapper{
     display: flex;
     flex-direction: column;
-}
-.s-title{
 }
 .s-desc{
     font-size: 20px;
@@ -62,4 +61,28 @@
     left: 0;
     opacity: 0.7;
     z-index: -1;
+}
+@media (max-width:580px){
+    .s-container{
+        display: unset;
+    }
+    .s-left{
+        width: 100%;
+    }
+    .s-right{
+        width: 100%;
+        padding: 0 0px 0px 20px;
+    }
+    .card-container{
+        display: unset;
+    }
+    .video{
+        position: unset;
+    }
+    .btn{
+        margin-bottom: 30px;
+    }
+    .s-img{
+        width: 300px;
+    }
 }
